@@ -5,10 +5,19 @@
   <title>X and O Game</title>
   <style>
     /* Add CSS styles for the game board */
-    #game-board {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-gap: 10px;
+#game-board{
+  background-color: red;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+}
+    .bord{
+      display: flex;
+flex-wrap: wrap;
+      grid-gap: 5px;
+    
+      width: 600px;
+      justify-content: center;
     }
 
     .cell {
@@ -21,6 +30,7 @@
       align-items: center;
       font-size: 48px;
       cursor: pointer;
+      border-radius: 5px;
     }
   </style>
 </head>
@@ -28,15 +38,35 @@
   <h1>X and O Game</h1>
 
   <div id="game-board">
-    <div class="cell"></div>
-    <div class="cell"></div>
-    <div class="cell"></div>
-    <div class="cell"></div>
-    <div class="cell"></div>
-    <div class="cell"></div>
-    <div class="cell"></div>
-    <div class="cell"></div>
-    <div class="cell"></div>
+    <div class="bord">
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+    </div>
+   
+
   </div>
 
   <script>
